@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const handleTouchStart = (event) => {
     touchStartX = event.touches[0].clientX;
   };
-
   const handleTouchMove = (event) => {
     if (!touchStartX) return;
 
@@ -54,3 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("touchstart", handleTouchStart);
   document.body.addEventListener("touchmove", handleTouchMove);
 });
+
+let pageHeight = document.documentElement.scrollHeight;
+console.log(`Высота страницы: ${pageHeight}px`);

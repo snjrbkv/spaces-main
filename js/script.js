@@ -54,5 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("touchmove", handleTouchMove);
 });
 
-let pageHeight = document.documentElement.scrollHeight;
-console.log(`Высота страницы: ${pageHeight}px`);
+
+window.addEventListener('scroll', () => {
+  console.log(`Scroll Y: ${window.scrollY}px`);
+});

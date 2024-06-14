@@ -20,11 +20,14 @@
 }
 body {
   width: 100%;
-  height: 55vh;
+  height: 155vh;
   background-image: url("../assets/img/bg-stars.jpg");
+  background-size: cover;
+  background-position: top center;
   background-repeat: no-repeat;
 }
-
+section {
+}
 .previe {
   width: 100%;
   height: 100vh;
@@ -255,8 +258,6 @@ body.mire .bg-element2 {
 }
 /* Animations */
 
-<<<<<<< HEAD
-=======
 /* Labarotory */
 .laboratory {
   width: 100%;
@@ -304,3 +305,212 @@ body.mire .bg-element2 {
   margin-top: auto;
 }
 /* Labarotory */
+
+/* Cards */
+.welcome-in {
+  padding: 10% 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.invite__planet {
+  position: absolute;
+  border-radius: 50%;
+  background: #000;
+  -webkit-box-shadow: 0 0 250px 0 rgba(255, 255, 255, 0.2),
+    0 0 50px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 250px 0 rgba(255, 255, 255, 0.2),
+    0 0 50px 0 rgba(255, 255, 255, 0.25);
+  width: 2000px;
+  height: 2000px;
+  left: -60%;
+  top: 60%;
+  z-index: -1;
+  -webkit-transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.invite.section--active .invite__planet {
+  left: 0;
+  top: 50%;
+}
+
+.invite .section-title {
+  position: relative;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: left;
+  bottom: auto;
+  right: auto;
+}
+
+.invite .section-title::before {
+  left: -70px;
+}
+
+.invite__list {
+  margin-top: 60px;
+}
+
+.invite__item {
+  overflow: hidden;
+  width: 298.14px;
+  height: 100px;
+  border-radius: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: linear-gradient(
+      223.25deg,
+      rgba(197, 220, 255, 0.1) 4.827%,
+      rgba(124, 177, 255, 0.02) 100.054%
+    )
+    content-box;
+  border: 2px solid rgba(197, 220, 255, 0.1);
+}
+
+.invite__item:nth-child(2) {
+  -webkit-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+
+.invite__item:nth-child(3) {
+  -webkit-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  transform: translateY(-40px);
+}
+
+.invite__item p {
+  color: #f8f0ec;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 80%;
+  opacity: 0;
+}
+
+.invite__item-title {
+  margin-top: 20px;
+  text-align: center;
+  color: #f8f0ec;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  opacity: 0.3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.invite__item .section-link {
+  margin: 0 auto;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 163, 255, 0.32);
+  box-shadow: 0 4px 12px 0 rgba(0, 163, 255, 0.32);
+}
+
+.invite__item:hover {
+  margin: 5% 0;
+  min-height: 100px;
+  height: 400px;
+}
+
+.invite__item:hover .invite__item-title,
+.invite__item:hover p {
+  opacity: 1;
+}
+
+.section-link {
+  color: #fff;
+  display: block;
+  width: fit-content;
+  padding: 15px 20px;
+  border-radius: 32px;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 163, 255, 0.32);
+  box-shadow: 0 4px 12px 0 rgba(0, 163, 255, 0.32);
+  background: linear-gradient(135deg, #3a42ff 0, #2653ff 100%);
+  margin-bottom: 3%;
+}
+/* Cards */
+
+/* Specialists */
+.specialists {
+}
+
+.specialists .container {
+}
+
+.specialists .specialists-in {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specialists form {
+  margin-top: 30%;
+  overflow: hidden;
+  width: 298px;
+  height: 653px;
+  border-radius: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: linear-gradient(
+      223.25deg,
+      rgba(197, 220, 255, 0.1) 4.827%,
+      rgba(124, 177, 255, 0.02) 100.054%
+    )
+    content-box;
+  border: 2px solid rgba(197, 220, 255, 0.1);
+}
+
+.specialists form h1 {
+  margin: 5% 0;
+}
+
+.specialists form h3 {
+  margin-bottom: 10%;
+}
+.input {
+  margin: 5% 0;
+  width: 90%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #f8f0ec;
+  stroke-width: 1px;
+  opacity: 0.5;
+}
+::placeholder {
+  font-weight: 300;
+  font-size: 14px;
+  color: #f8f0ec;
+}
+.specialists form .section-link {
+}
+
+/* Specialists */

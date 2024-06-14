@@ -29,11 +29,6 @@ body {
   justify-content: space-between;
   /* background-repeat: no-repeat; */
 }
-main {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
 .previe {
   width: 100%;
   height: 100vh;
@@ -718,6 +713,9 @@ section {
 }
 main {
   overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .contact-title {
   font-weight: 300;

@@ -8,8 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 document.addEventListener("DOMContentLoaded", () => {
-  const classes = ["stile", "pute", "mire"];
-  let index = 0; // Начнем с 'stile', так как это первый класс
+  const classes = [
+    "herro",
+    "labaratory",
+    "servicess",
+    "welcome",
+    "specialists",
+    "comanda",
+    "contacts",
+  ];
+  let index = 0; // Начнем с 'hero', так как это первый класс
   let touchStartX = null;
 
   const handleTouchStart = (event) => {
@@ -21,8 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const touchEndX = event.touches[0].clientX;
     const touchDiffX = touchEndX - touchStartX;
 
-    if (touchDiffX < -50 && index < 2) {
-      // Двигаем влево до добавления класса mire
+    if (touchDiffX < -50 && index < classes.length - 1) {
+      // Двигаем влево до последнего класса
       // Удаляем текущий класс
       document.body.classList.remove(classes[index]);
 
@@ -35,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Сбрасываем начальную точку касания
       touchStartX = null;
     } else if (touchDiffX > 50 && index > 0) {
-      // Двигаем вправо до добавления класса stil
+      // Двигаем вправо до первого класса
       // Удаляем текущий класс
       document.body.classList.remove(classes[index]);
 
@@ -54,7 +62,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("touchmove", handleTouchMove);
 });
 
-
-window.addEventListener('scroll', () => {
+window.addEventListener("scroll", () => {
   console.log(`Scroll Y: ${window.scrollY}px`);
 });

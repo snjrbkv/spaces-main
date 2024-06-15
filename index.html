@@ -9,153 +9,164 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Production-space</title>
   </head>
-  <body class="body stile">
-    <div class="previe">
+  <body class="body">
+    <div id="preview" class="previe">
       <div class="intro">
         <h1>открой</h1>
-        <img src="assets/img/arrow-blue.svg" alt="arrows" class="arrow" />
+        <img
+          id="arrow"
+          src="assets/img/arrow-blue.svg"
+          alt="arrows"
+          class="arrow"
+        />
         <img src="assets/img/logo.svg" alt="site-logo" class="site-logo" />
       </div>
     </div>
 
     <!-- Header somsa -->
-<div class="hero">
-  <header >
-    <div class="container">
-      <ul class="nav">
-        <li class="nav--item">
-          <img src="assets/img/logo.svg" alt="site-logo" class="site--logo" />
-        </li>
-        <li class="nav--item">
-          <div class="hamburger-menu">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </div>
-        </li>
-      </ul>
+    <div id="hero" class="hero animated-element fade-in">
+      <header class="">
+        <div class="container">
+          <ul class="nav">
+            <li class="nav--item">
+              <img
+                src="assets/img/logo.svg"
+                alt="site-logo"
+                class="site--logo"
+              />
+            </li>
+            <li class="nav--item">
+              <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            </li>
+          </ul>
 
-      <div class="header-section">
-        <div class="section--in">
-          <h1 class="title stil">
-            Создай <br />
-            свой рабочий <br />
-            и творческий <span class="span-stil"> стиль</span>
-            <span class="span-put"> путь</span>
-            <span class="span-mir"> мир</span>
-          </h1>
+          <div class="header-section">
+            <div class="section--in">
+              <h1 class="title">
+                Создай <br />
+                свой рабочий <br />
+                и творческий <br />
+                <span class="span-stil visible fade-in"> стиль</span>
+                <span class="span-put"> путь</span>
+                <span class="span-mir"> мир</span>
+              </h1>
+              <svg
+                class="arrow-btn"
+                width="61"
+                height="16"
+                viewBox="0 0 61 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M60.7071 8.70711C61.0976 8.31658 61.0976 7.68342 60.7071 7.29289L54.3431 0.928932C53.9526 0.538408 53.3195 0.538408 52.9289 0.928932C52.5384 1.31946 52.5384 1.95262 52.9289 2.34315L58.5858 8L52.9289 13.6569C52.5384 14.0474 52.5384 14.6805 52.9289 15.0711C53.3195 15.4616 53.9526 15.4616 54.3431 15.0711L60.7071 8.70711ZM0 9L60 9V7L0 7L0 9Z"
+                  fill="#3A65FF"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="bg-elements">
+        <div class="bg-element"></div>
+        <div class="bg-element2">
           <svg
-            class="arrow-btn"
-            width="61"
-            height="16"
-            viewBox="0 0 61 16"
+            width="600"
+            height="146"
+            viewBox="0 0 360 146"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M60.7071 8.70711C61.0976 8.31658 61.0976 7.68342 60.7071 7.29289L54.3431 0.928932C53.9526 0.538408 53.3195 0.538408 52.9289 0.928932C52.5384 1.31946 52.5384 1.95262 52.9289 2.34315L58.5858 8L52.9289 13.6569C52.5384 14.0474 52.5384 14.6805 52.9289 15.0711C53.3195 15.4616 53.9526 15.4616 54.3431 15.0711L60.7071 8.70711ZM0 9L60 9V7L0 7L0 9Z"
-              fill="#3A65FF"
+            <g filter="url(#filter0_f_1280_409)">
+              <circle
+                cx="681.341"
+                cy="681.341"
+                r="681.341"
+                transform="matrix(-1 0 0 1 622.684 23)"
+                stroke="#FFE5DA"
+                stroke-width="5"
+              />
+            </g>
+            <g filter="url(#filter1_f_1280_409)">
+              <circle
+                cx="681.341"
+                cy="681.341"
+                r="681.341"
+                transform="matrix(-1 0 0 1 622.684 23)"
+                stroke="#FFE5DA"
+                stroke-opacity="0.5"
+                stroke-width="10"
+              />
+            </g>
+            <circle
+              cx="681.341"
+              cy="681.341"
+              r="681.341"
+              transform="matrix(-1 0 0 1 622.684 23)"
+              stroke="#FFFDF4"
+              stroke-width="6"
             />
+            <defs>
+              <filter
+                id="filter0_f_1280_409"
+                x="-762.5"
+                y="0.5"
+                width="1407.68"
+                height="1407.68"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="10"
+                  result="effect1_foregroundBlur_1280_409"
+                />
+              </filter>
+              <filter
+                id="filter1_f_1280_409"
+                x="-748"
+                y="15"
+                width="1378.68"
+                height="1378.68"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="1.5"
+                  result="effect1_foregroundBlur_1280_409"
+                />
+              </filter>
+            </defs>
           </svg>
         </div>
       </div>
     </div>
-  </header>
-  <div  class="bg-elements stil">
-    <div class="bg-element"></div>
-    <div class="bg-element2">
-      <svg
-        width="600"
-        height="146"
-        viewBox="0 0 360 146"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g filter="url(#filter0_f_1280_409)">
-          <circle
-            cx="681.341"
-            cy="681.341"
-            r="681.341"
-            transform="matrix(-1 0 0 1 622.684 23)"
-            stroke="#FFE5DA"
-            stroke-width="5"
-          />
-        </g>
-        <g filter="url(#filter1_f_1280_409)">
-          <circle
-            cx="681.341"
-            cy="681.341"
-            r="681.341"
-            transform="matrix(-1 0 0 1 622.684 23)"
-            stroke="#FFE5DA"
-            stroke-opacity="0.5"
-            stroke-width="10"
-          />
-        </g>
-        <circle
-          cx="681.341"
-          cy="681.341"
-          r="681.341"
-          transform="matrix(-1 0 0 1 622.684 23)"
-          stroke="#FFFDF4"
-          stroke-width="6"
-        />
-        <defs>
-          <filter
-            id="filter0_f_1280_409"
-            x="-762.5"
-            y="0.5"
-            width="1407.68"
-            height="1407.68"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"
-            />
-            <feGaussianBlur
-              stdDeviation="10"
-              result="effect1_foregroundBlur_1280_409"
-            />
-          </filter>
-          <filter
-            id="filter1_f_1280_409"
-            x="-748"
-            y="15"
-            width="1378.68"
-            height="1378.68"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"
-            />
-            <feGaussianBlur
-              stdDeviation="1.5"
-              result="effect1_foregroundBlur_1280_409"
-            />
-          </filter>
-        </defs>
-      </svg>
-    </div>
-  </div>
-</div>
 
     <!-- Header -->
 
     <main>
-      <section class="laboratory" >
+      <section class="animated-element fade-in laboratory">
         <div class="container">
           <ul class="nav">
             <li class="nav--item">
@@ -191,9 +202,97 @@
 
             <button class="laboratory-btn">Скачать презентацию</button>
           </div>
+
+          <div class="bg-elements-labaratory">
+            <div class="bg-element-labaratory"></div>
+            <div class="bg-element2-labaratory">
+              <svg
+                width="600"
+                height="146"
+                viewBox="0 0 360 146"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_f_1280_409)">
+                  <circle
+                    cx="681.341"
+                    cy="681.341"
+                    r="681.341"
+                    transform="matrix(-1 0 0 1 622.684 23)"
+                    stroke="#FFE5DA"
+                    stroke-width="5"
+                  />
+                </g>
+                <g filter="url(#filter1_f_1280_409)">
+                  <circle
+                    cx="681.341"
+                    cy="681.341"
+                    r="681.341"
+                    transform="matrix(-1 0 0 1 622.684 23)"
+                    stroke="#FFE5DA"
+                    stroke-opacity="0.5"
+                    stroke-width="10"
+                  />
+                </g>
+                <circle
+                  cx="681.341"
+                  cy="681.341"
+                  r="681.341"
+                  transform="matrix(-1 0 0 1 622.684 23)"
+                  stroke="#FFFDF4"
+                  stroke-width="6"
+                />
+                <defs>
+                  <filter
+                    id="filter0_f_1280_409"
+                    x="-762.5"
+                    y="0.5"
+                    width="1407.68"
+                    height="1407.68"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation="10"
+                      result="effect1_foregroundBlur_1280_409"
+                    />
+                  </filter>
+                  <filter
+                    id="filter1_f_1280_409"
+                    x="-748"
+                    y="15"
+                    width="1378.68"
+                    height="1378.68"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation="1.5"
+                      result="effect1_foregroundBlur_1280_409"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="welcome-laborotory" >
+
+      <section class="animated-element fade-in welcome-laborotory">
         <div class="container">
           <ul class="nav">
             <li class="nav--item">
@@ -264,9 +363,9 @@
         </div>
       </section>
 
-      <section class="services">
+      <section class="animated-element fade-in services">
         <div class="container">
-          <ul class="nav">
+          <ul class="services-nav nav">
             <li class="nav--item">
               <img
                 src="assets/img/logo.svg"
@@ -283,61 +382,99 @@
             </li>
           </ul>
           <div class="services-in">
-            <section class="section services inner">
-              <h1 class="labaratory-title">
-                <img src="assets/img/Ellipse 27.png" alt="title-icon" />
-                Услуги
-              </h1>
-              <div class="services__item">
-                <div class="services__item-container">
-                  <h3 class="services__item-title">
-                    Разработка и монетизация платформ
-                  </h3>
-                  <p class="services__item-text">
-                    (для автоматизации БП и управления данными)
-                  </p>
-                </div>
+            <h1 class="labaratory-title">
+              <img src="assets/img/Ellipse 27.png" alt="title-icon" />
+              Услуги
+            </h1>
+            <div class="services__item">
+              <div class="services__item-container">
+                <h3 class="services__item-title">
+                  Разработка и монетизация платформ
+                </h3>
+                <p class="services__item-text">
+                  (для автоматизации БП и управления данными)
+                </p>
               </div>
-              <div class="services__item">
-                <div class="services__item-container">
-                  <h3 class="services__item-title">DATA-management</h3>
-                  <p class="services__item-text">
-                    (аудит, дата-дизайн + BI-ландшафт, архитектура, инжиниринг,
-                    хранение и обработка данных)
-                  </p>
-                </div>
+            </div>
+            <div class="services__item">
+              <div class="services__item-container">
+                <h3 class="services__item-title">DATA-management</h3>
+                <p class="services__item-text">
+                  (аудит, дата-дизайн + BI-ландшафт, архитектура, инжиниринг,
+                  хранение и обработка данных)
+                </p>
               </div>
-              <div class="services__item">
-                <div class="services__item-container">
-                  <h3 class="services__item-title">
-                    Проектный и продуктовый консалтинг
-                  </h3>
-                  <p class="services__item-text"></p>
-                </div>
+            </div>
+            <div class="services__item">
+              <div class="services__item-container">
+                <h3 class="services__item-title">
+                  Проектный и продуктовый консалтинг
+                </h3>
+                <p class="services__item-text"></p>
               </div>
-            </section>
-            <div class="services__planet"></div>
+            </div>
+          </div>
+          <div class="bg-elements-services">
+            <div class="bg-element-services"></div>
           </div>
         </div>
       </section>
 
-       <!-- Registration -->
-       <section class="registation specialists">
+      <!-- Registration -->
+      <section class="animated-element fade-in registation specialists">
         <div class="container">
+
+      <ul class="nav">
+        <li class="nav--item">
+          <img src="assets/img/logo.svg" alt="site-logo" class="site--logo" />
+        </li>
+        <li class="nav--item">
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </li>
+      </ul>
           <div class="wrapper">
             <h3>Специалистам</h3>
             <h4>Представьтесь:</h4>
 
-              <input placeholder="имя" type="text" name="name" id="name">
-              <input placeholder="вакансия, которая заинтересовала" type="text" name="vocation" id="vocation">
-              <input placeholder="email" type="text" name="email" id="email">
-              <input placeholder="телефон" type="text" name="phoneNumber" id="phoneNumber">
-              <input placeholder="ссылка на портфолио" type="text" name="link" id="link">
-              <input placeholder="о себе" type="text" name="aboutYou" id="aboutYou">
+            <input placeholder="имя" type="text" name="name" id="name" />
+            <input
+              placeholder="вакансия, которая заинтересовала"
+              type="text"
+              name="vocation"
+              id="vocation"
+            />
+            <input placeholder="email" type="text" name="email" id="email" />
+            <input
+              placeholder="телефон"
+              type="text"
+              name="phoneNumber"
+              id="phoneNumber"
+            />
+            <input
+              placeholder="ссылка на портфолио"
+              type="text"
+              name="link"
+              id="link"
+            />
+            <input
+              placeholder="о себе"
+              type="text"
+              name="aboutYou"
+              id="aboutYou"
+            />
 
             <div class="resume">
               <div class="select">
-                <img class="resume-btn" type="file" src="./assets/img/Isolation_Mode (2).svg" alt="">
+                <img
+                  class="resume-btn"
+                  type="file"
+                  src="./assets/img/Isolation_Mode (2).svg"
+                  alt=""
+                />
               </div>
               <span>прикрепить резюме</span>
             </div>
@@ -345,23 +482,66 @@
           </div>
         </div>
       </section>
-      <section class="registation comands">
+      <section class="animated-element fade-in registation comands">
         <div class="container">
+
+      <ul class="nav">
+        <li class="nav--item">
+          <img src="assets/img/logo.svg" alt="site-logo" class="site--logo" />
+        </li>
+        <li class="nav--item">
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </li>
+      </ul>
           <div class="wrapper">
             <h3>Командам</h3>
             <h4>Представьтесь:</h4>
 
-              <input placeholder="название" type="text" name="name" id="name">
-              <input placeholder="специализация" type="text" name="specialisation" id="specialisation">
-              <input placeholder="что вы ожидаете от сотрудничества" type="text" name="email" id="email">
-              <input placeholder="состав команды" type="compound" name="compound" id="compound">
-              <input placeholder="email" type="text" name="email" id="email">
-              <input placeholder="телефон" type="text" name="phoneNumber" id="phoneNumber">
-              <input placeholder="ссылка на проекты" type="text" name="link" id="link">
+            <input placeholder="название" type="text" name="name" id="name" />
+            <input
+              placeholder="специализация"
+              type="text"
+              name="specialisation"
+              id="specialisation"
+            />
+            <input
+              placeholder="что вы ожидаете от сотрудничества"
+              type="text"
+              name="email"
+              id="email"
+            />
+            <input
+              placeholder="состав команды"
+              type="compound"
+              name="compound"
+              id="compound"
+            />
+            <input placeholder="email" type="text" name="email" id="email" />
+            <input
+              placeholder="телефон"
+              type="text"
+              name="phoneNumber"
+              id="phoneNumber"
+            />
+            <input
+              placeholder="ссылка на проекты"
+              type="text"
+              name="link"
+              id="link"
+            />
 
             <div class="resume">
               <div class="select">
-                <img class="resume-btn" type="file" src="./assets/img/Isolation_Mode (2).svg" alt="">
+                <img
+                  class="resume-btn"
+                  type="file"
+                  src="./assets/img/Isolation_Mode (2).svg"
+                  alt=""
+                />
               </div>
               <span>прикрепить материалы</span>
             </div>
@@ -371,50 +551,75 @@
       </section>
 
       <!-- Contacts -->
-      <section class="contacts">
+
+      <section class="animated-element fade-in registation questions">
         <div class="container">
+          <ul class="nav">
+            <li class="nav--item">
+              <img src="assets/img/logo.svg" alt="site-logo" class="site--logo" />
+            </li>
+            <li class="nav--item">
+              <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            </li>
+          </ul>
           <div class="contact-text">
             <h1 class="contact-title">
               <img src="assets/img/Group 49.png" alt="title-icon" />
               Контакты
             </h1>
-            <p>Москва | Нижний Новгород | Самара <br>
-              — <br>
-              my@productoria.space</p>
-        </div>
-        <ul class="contact-list">
-          <li class="contact-item">
-            <div class="contact-item-text">
-              <h3>По HR-вопросам:</h3>
-              <h4>Станислав</h4>
-              <a href="my@productoria.space">team@productoria.space</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="contact-item-text">
-              <h3>По вопросам продуктовой разработки:</h3>
-              <h4>Дмитрий</h4>
-              <a href="my@productoria.space">RnD@productoria.space</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="contact-item-text">
-              <h3>По вопросам совместного развития:</h3>
-              <h4>Кристина</h4>
-              <a href="my@productoria.space">up@productoria.space</a>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="registation questions">
-        <div class="container">
+            <p>
+              Москва | Нижний Новгород | Самара <br />
+              — <br />
+              my@productoria.space
+            </p>
+          </div>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <div class="contact-item-text">
+                <h3>По HR-вопросам:</h3>
+                <h4>Станислав</h4>
+                <a href="my@productoria.space">team@productoria.space</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-item-text">
+                <h3>По вопросам продуктовой разработки:</h3>
+                <h4>Дмитрий</h4>
+                <a href="my@productoria.space">RnD@productoria.space</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="contact-item-text">
+                <h3>По вопросам совместного развития:</h3>
+                <h4>Кристина</h4>
+                <a href="my@productoria.space">up@productoria.space</a>
+              </div>
+            </li>
+          </ul>
           <div class="wrapper">
-            <h3 class="questions-title">Напиши, если есть <br> вопрос</h3>
+            <h3 class="questions-title">
+              Напиши, если есть <br />
+              вопрос
+            </h3>
 
-            <input placeholder="имя" type="text" name="name" id="name">
-            <input placeholder="email" type="text" name="email" id="email">
-            <input placeholder="телефон" type="text" name="phoneNumber" id="phoneNumber">
-            <input placeholder="ваш вопрос" type="text" name="question" id="question">
+            <input placeholder="имя" type="text" name="name" id="name" />
+            <input placeholder="email" type="text" name="email" id="email" />
+            <input
+              placeholder="телефон"
+              type="text"
+              name="phoneNumber"
+              id="phoneNumber"
+            />
+            <input
+              placeholder="ваш вопрос"
+              type="text"
+              name="question"
+              id="question"
+            />
 
             <button class="subm-btn">Отправить</button>
           </div>
@@ -422,7 +627,29 @@
       </section>
     </main>
 
-
+    <div class="burger-bar">
+      <ul class="nav">
+        <li class="nav--item">
+          <img src="assets/img/logo.svg" alt="site-logo" class="site--logo" />
+        </li>
+        <li class="nav--item">
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </li>
+      </ul>
+      <ul class="bar--list">
+        <li class="bar--item heroBtn">Познакомься:</span></li>
+        <li class="bar--item labBtn">лаборатория <span class="dot"></span></li>
+        <li class="bar--item serBtn">услуги <span class="dot"></span></li>
+        <li class="bar--item comBtn">
+          сотрудничество <span class="dot"></span>
+        </li>
+        <li class="bar--item contBtn">с нами <span class="dot"></span></li>
+      </ul>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
